@@ -59,6 +59,76 @@ button:active{
 }
 /* header  end*/
 
+/* header 2 */
+.header2{
+    display: none;
+    background-color: #0066FF;
+}
+.header2_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header2_logo a{
+    color: #fff;
+}
+.dropdown{
+    width: 250px;
+    background-color:#045de1;
+}
+.dropdown_btn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    border: hidden;
+    width: 250px;
+    height: 30px;
+    background-color:#0066FF;
+    padding: 0;
+}
+.dropdown_btn, button:hover{
+    background-color: #0066FF;
+}
+.dropdown_btn, button:active{
+    outline: none;
+    box-shadow: none;
+}
+.dropdown_menu_wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.hidden{
+    display: none;
+}
+.dropdown_menu{
+    width: 250px;
+    padding-right: 20px;
+}
+.dropdown_menu_items{
+    display: flex;
+    flex-direction: column;
+    background-color: #0066FF;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+}
+.dropdown_menu a{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+.dropdown_menu a:hover{
+    color: #042E54;
+}
+/* header 2 end */
+
 /* tagline */
 .tagline{
     padding-top: 169px;
@@ -607,6 +677,12 @@ button:active{
     }
     .speciality_cards{
         width: 500px;
+    }
+    .header{
+        display: none;
+    }
+    .header2{
+        display:block;
     }
 }
 @media(max-width: 740px){
